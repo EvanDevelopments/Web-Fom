@@ -1,0 +1,28 @@
+body{
+	/*This part of the code makes the font for the entire site*/
+	font-family: 'Roboto', sans-serif;
+	background-color:#1d1f1d;
+}
+#submit{
+	/*This part of the code makes the submit button green*/
+	background-color:green;
+	width:100px;
+	padding:6px;
+}
+
+form{
+	/* This part of the code makes the form appear centered*/
+	text-align:center;
+	margin:20px auto;
+	border:2px solid green;
+	border-radius:5px;
+	width:230px;
+	background-color:white;
+}
+input:focus,select:focus{
+	border:4px solid green;
+}
+label{
+	color:green;
+}
+
